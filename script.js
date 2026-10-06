@@ -16,11 +16,11 @@ drawButton.addEventListener('click', () => {
 
     // 0.8 未満だったら
     } else if (randomNumber < 0.8) {
-        resultDisplay.textContent = '中吉';
+        resultDisplay.textContent = '小吉';
 
     // どちらでもない場合
     } else {
-        resultDisplay.textContent = '吉'; //
+        resultDisplay.textContent = '凶'; //
     }
 
 });
